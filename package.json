@@ -1,0 +1,15 @@
+{
+  "name": "fetch-node-wrapper",
+  "version": "1.0.0",
+  "description": "Node API wrapper around fetch GitHub downloader CLI",
+  "main": "fetch.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fintechstudios/fetch-node-wrapper.git"
+  },
+  "scripts": {
+    "postinstall": "node downloadBin"
+  },
+  "author": "Dylan Praul",
+  "license": "MIT"
+}
